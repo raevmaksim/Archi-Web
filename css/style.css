@@ -188,6 +188,7 @@ html {
 /* Projects */
 
 .projects {
+  margin-bottom: 95px;
 }
 .projects__title {  
   margin-bottom: 75px; 
@@ -210,6 +211,116 @@ html {
   margin: 0 auto;
   text-align: center;
 }
+
+/* Comments */
+
+.comments {
+}
+.comments__title {
+  text-align: center;
+  margin-bottom: 82px;
+}
+.comments__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 105px;
+}
+.comments__card {
+  display: flex;
+  margin-bottom: 150px;
+}
+.comments__card_ava {
+  margin-right: 29px;
+}
+.comments__card_item {
+}
+.comments__card_name {
+  padding-top: 16px;
+  font-family: 'PlayfairDisplayBold';
+  font-size: 28px;
+  margin-bottom: 18px;
+  color: var(--darck-color);
+}
+.comments__card_text {
+  color: var(--darck-color);
+  max-width: 283px;
+  font-family: 'PlayfairDisplayRegular';
+  font-size: 17px;
+  line-height: 23px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--darck-color);
+}
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contacts {
+}
+.footer__contacts_logo {
+  padding-top: 47px;
+  font-family: 'BarlowSemiBold';
+  font-size: 42px;
+  color: var(--white-color);
+  margin-bottom: 7px;
+}
+.footer__contacts_p {
+  max-width: 287px;
+  font-family: 'InterRegular';
+  font-size: 17px;
+  line-height: 29px;
+  color: var(--white-color);
+  margin-bottom: 45px;
+}
+.footer__contacts_social-network {
+  display: flex;
+  justify-content: space-between;
+  width: 145px;
+}
+.footer__contacts_icons {
+}
+.footer__contacts_img {
+}
+.footer__links {
+  margin-right: 179px;
+}
+.footer__links_title {
+  padding-top: 58px;
+  font-family: 'InterBlack';
+  font-size: 24px;
+  color: var(--white-color);
+  margin-bottom: 14px;
+}
+.footer__links_ul {
+  width: 201px;
+  list-style: none;
+}
+.footer__links_li {
+  margin-bottom: 4px;
+}
+.footer__links_a {
+  font-family: 'InterRegular';
+  font-size: 17px;
+  color: var(--white-color);
+  text-decoration: none;  
+  line-height: 29px;
+}
+.footer__location {
+  margin-bottom: 44px;
+}
+.footer__location_title {  
+  padding-top: 58px;
+  font-family: 'InterBlack';
+  font-size: 24px;
+  color: var(--white-color);
+  margin-bottom: 17px;
+}
+.footer__location_map {
+}
+
 
 
 
