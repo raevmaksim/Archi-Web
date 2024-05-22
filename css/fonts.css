@@ -1,0 +1,209 @@
+/* 
+
+      Barlow
+font-family: 'BarlowBlack';
+font-family: 'BarlowExtraBold';
+font-family: 'BarlowBold';
+font-family: 'BarlowSemiBold';
+font-family: 'BarlowMedium';
+font-family: 'BarlowRegular';
+font-family: 'BarlowLight';
+font-family: 'BarlowExtraLight';
+font-family: 'BarlowThin';
+
+      Inter
+font-family: 'InterBlack';
+font-family: 'InterExtraBold';
+font-family: 'InterBold';
+font-family: 'InterSemiBold';
+font-family: 'InterMedium';
+font-family: 'InterRegular';
+font-family: 'InterLight';
+font-family: 'InterExtraLight';
+font-family: 'InterThin';
+
+      PlayfairDisplay
+font-family: 'PlayfairDisplayBlack';
+font-family: 'PlayfairDisplayExtraBold';
+font-family: 'PlayfairDisplayBold';
+font-family: 'PlayfairDisplaySemiBold';
+font-family: 'PlayfairDisplayMedium';
+font-family: 'PlayfairDisplayRegular';
+*/
+
+/* Barlow */
+@font-face {
+  font-family: 'BarlowBlack';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/Barlow-Black.ttf);
+}
+
+@font-face {
+  font-family: 'BarlowExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/Barlow-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'BarlowBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Barlow-Bold.ttf);
+}
+@font-face {
+  font-family: 'BarlowSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Barlow-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'BarlowMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Barlow-Medium.ttf);
+}
+@font-face {
+  font-family: 'BarlowRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Barlow-Regular.ttf);
+}
+@font-face {
+  font-family: 'BarlowLight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/Barlow-Light.ttf);
+}
+@font-face {
+  font-family: 'BarlowExtraLight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/Barlow-ExtraLight.ttf);
+}
+@font-face {
+  font-family: 'BarlowThin';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/Barlow-Thin.ttf);
+}
+
+/* Inter */
+@font-face {
+  font-family: 'InterBlack';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/Inter-Black.ttf);
+}
+
+@font-face {
+  font-family: 'InterExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'InterBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: 'InterSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'InterMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: 'InterRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: 'InterLight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/Inter-Light.ttf);
+}
+@font-face {
+  font-family: 'InterExtraLight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/Inter-ExtraLight.ttf);
+}
+@font-face {
+  font-family: 'InterThin';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/Inter-Thin.ttf);
+}
+
+/* PlayfairDisplay */
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+  font-family: 'PlayfairDisplayExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/PlayfairDisplay-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'PlayfairDisplayBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+  font-family: 'PlayfairDisplaySemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/PlayfairDisplay-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'PlayfairDisplayMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/PlayfairDisplay-Medium.ttf);
+}
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
