@@ -150,6 +150,7 @@ html {
 /* About */
 
 .about {
+  margin-bottom: 100px;
 }
 .about__flex {
   display: flex;
@@ -168,8 +169,7 @@ html {
 }
 .about__title {
   padding-left: 2px;  
-  margin-bottom: 27px;
-  
+  margin-bottom: 27px; 
 }
 .about__text {
   max-width: 419px;
@@ -183,6 +183,32 @@ html {
   font-size: 24px;
   color: var(--darck-color);
   text-decoration: none;
+}
+
+/* Projects */
+
+.projects {
+}
+.projects__title {  
+  margin-bottom: 75px; 
+}
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 85px 104px;
+}
+.projects__card {
+}
+.projects__card_img {
+  margin-bottom: 13px;
+}
+.projects__card_text {
+  max-width: 178px;
+  font-family: 'PlayfairDisplayRegular';
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
