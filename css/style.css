@@ -41,9 +41,7 @@ html {
  }
 
  /* Header */
-
- .header {
-}
+ 
 .header__flex {
   padding-top: 48px;
   display: flex;
@@ -72,6 +70,19 @@ html {
 }
 .hrader__search {
   padding-top: 15px;
+}
+.header__burger {
+  display: none;
+  padding-top: 15px;
+  width: 30px;
+}
+.header__burger_line{
+  height: 4px;
+  background-color: var(--darck-color);
+  margin-bottom: 6px;
+}
+.header__burger_line:last-child {
+  margin-bottom: 0;
 }
 
 /* Firstscreen */
@@ -198,8 +209,6 @@ html {
   grid-template-columns: repeat(3, 1fr);
   gap: 85px 104px;
 }
-.projects__card {
-}
 .projects__card_img {
   margin-bottom: 13px;
 }
@@ -214,8 +223,6 @@ html {
 
 /* Comments */
 
-.comments {
-}
 .comments__title {
   text-align: center;
   margin-bottom: 82px;
@@ -231,8 +238,6 @@ html {
 }
 .comments__card_ava {
   margin-right: 29px;
-}
-.comments__card_item {
 }
 .comments__card_name {
   padding-top: 16px;
@@ -258,8 +263,6 @@ html {
   display: flex;
   justify-content: space-between;
 }
-.footer__contacts {
-}
 .footer__contacts_logo {
   padding-top: 47px;
   font-family: 'BarlowSemiBold';
@@ -279,10 +282,6 @@ html {
   display: flex;
   justify-content: space-between;
   width: 145px;
-}
-.footer__contacts_icons {
-}
-.footer__contacts_img {
 }
 .footer__links {
   margin-right: 179px;
@@ -318,10 +317,286 @@ html {
   color: var(--white-color);
   margin-bottom: 17px;
 }
-.footer__location_map {
+
+@media screen and (max-width:1250px) {
+  .container {
+    max-width: 1050px;
+  }
+  .text_h2 {   
+    font-size: 40px;
+  }
+  .header__logo {
+    margin-right: 0;
+  }
+.about__text {
+  font-size: 22px;
+  line-height: 40px;
+  }
+  .projects__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 85px 0;
+  }
+.projects__card_img {
+    margin: 0 auto 13px;
+  }
+}
+@media screen and (max-width:1055px) {
+  .container {
+    max-width: 850px;
+  }
+  .hrader__nav-menu {
+    justify-content: space-evenly;
+  }
+  .comments__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    margin-bottom: 100px;
+    justify-items: center;  
+  }
+  .comments__card {
+    display: flex;
+    margin-bottom: 0;
+  }
+  .comments__card_text {
+    max-width: 380px;
+  }
+  .footer__links {
+    margin-right: 0;
+  }
 }
 
-
+@media screen and (max-width:900px) {
+  .container {
+    max-width: 650px;
+  }
+  .text_h2 {
+    font-size: 35px;
+}
+  .hrader__nav-menu {
+    display: none;
+  }
+  .header__item_r {
+    display: flex;
+  }
+  .header__burger {
+    padding-top: 0;
+    display: block;
+  }
+  .hrader__search {
+    padding-top: 0;
+    width: 30px;
+    margin-right: 25px;
+  } 
+  .header__flex {
+    margin-bottom: 25px;
+  }
+  .firstscreen {
+    padding-top: 120px;
+    background-position: 0 0;
+  }
+  .firstscreen__content {
+    position: relative;
+    padding-top: 0;
+    padding-left: 0;
+    padding: 15px;
+    width: 300px;
+    height: 100%;
+  }
+  .firstscreen__text {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .about {
+    margin-bottom: 60px;
+  }
+  .about__flex {
+    flex-direction: column;
+  }
+  .about__bg {
+    margin: 0 auto;
+    width: 593px;
+    height: 463px;
+  }
+  .about__content {
+    padding-top: 40px;
+    padding-left: 0;
+  }
+  .about__title {
+    text-align: center;
+  }
+  .about__text {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .about__content a {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .projects__title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .projects__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .footer__flex {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }  
+}
+@media screen and (max-width:700px) {
+  .container {
+    max-width: 500px;
+  }
+  .text_h2 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .firstscreen {
+    height: 100%;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    background-size: cover;
+  }
+  .firstscreen__content {
+    margin: 0 auto;
+    width: 370px;
+  }
+  .firstscreen__title {
+    text-align: center;
+  }
+  .firstscreen__text {
+    font-size: 21px;
+    line-height: 27px;
+  }
+  .services {
+    padding-top: 60px;
+  }
+  .services__title {
+    margin-bottom: 50px;
+  }
+  .services__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "planning interior"
+    "exterior exterior"    ;
+    gap: 60px 30px;
+    justify-content: space-around;
+  }
+  .planning {
+    grid-area: planning;
+  }
+  .interior {
+    grid-area: interior;
+  }
+  .exterior {
+    grid-area: exterior;
+  }
+  .about__bg {
+    width: 498px;
+    height: 388px;
+  }  
+  .comments__card {
+    flex-direction: column;
+  }
+  .comments__card_ava {
+    margin-right: 0;
+    width: 250px;
+    margin: 0 auto 20px;
+  }
+  .comments__card_name {
+    text-align: center;
+  }
+  .comments__card_text {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer__contacts_logo {
+    text-align: center;
+  }
+  .footer__contacts_p {
+    max-width: 208px;
+    text-align: center;
+    margin: 0 auto 20px;
+  }
+  .footer__contacts_social-network {
+    margin: 0 auto;
+  }
+  .footer__links_title {
+    text-align: center;
+  }
+  .footer__links_ul {
+    text-align: center;
+  }
+  .footer__location_title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .container {
+    max-width: 360px;
+  }
+  .firstscreen__content {
+    margin: 0 auto;
+    width: 280px;
+  }
+  .about__bg {
+      width: 328px;
+      height: 254px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .container {
+    max-width: 260px;
+  }
+  .header__logo {
+    font-size: 31px;
+  }
+  .hrader__search {
+    width: 25px;
+    margin-right: 15px;
+  }
+  .header__burger {
+    width: 25px;
+  }
+  .header__burger_line {
+    height: 4px;
+    margin-bottom: 5px;
+  }
+  .services__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+    "planning"
+    "interior"
+    "exterior";
+    gap: 60px 30px;
+    justify-content: space-around;
+  }
+  .about__bg {
+    width: 240px;
+    height: 186px;
+  }
+  .projects__card_img {
+    width: 200px;
+  }
+  .comments__title {
+    margin-bottom: 40px;
+  }
+  .comments__card_ava {
+    width: 200px;
+  }
+  .footer__location_map iframe {
+    width: 200px;
+    height: 180px;
+  }
+}
+  
 
 
 
